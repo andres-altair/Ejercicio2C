@@ -14,7 +14,7 @@ namespace Ejercicio2C
         {
             pedirI pI = new pedirC();
             int a = pI.pedir();
-            if (a == )
+            if (a == (Math.Sqrt(a) % == 0))
             {
                 Console.WriteLine("se puede expresar como el cuadrado de otro número entero ");
             }

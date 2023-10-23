@@ -8,6 +8,11 @@ namespace Ejercicio2C.Servicios
 {
     internal interface pedirI
     {
+        /// <summary>
+        /// metodo que pide y recoge un numero entero
+        /// 231023-amd
+        /// </summary>
+        /// <returns></returns>
         public int pedir();
     }
 }
