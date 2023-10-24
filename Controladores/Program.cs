@@ -1,5 +1,6 @@
 ﻿using Ejercicio2C;
 using Ejercicio2C.Servicios;
+using System.ComponentModel;
 
 namespace Ejercicio2C
 {
@@ -14,7 +15,8 @@ namespace Ejercicio2C
         {
             pedirI pI = new pedirC();
             int a = pI.pedir();
-            if (a == (Math.Sqrt(a) % == 0))
+            int b = Convert.ToInt32(Math.Sqrt(a));
+            if (a == b*b)
             {
                 Console.WriteLine("se puede expresar como el cuadrado de otro número entero ");
             }
@@ -23,3 +25,6 @@ namespace Ejercicio2C
     }
 }  
 
+
+
+      

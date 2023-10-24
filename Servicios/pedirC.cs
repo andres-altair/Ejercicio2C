@@ -14,4 +14,5 @@ namespace Ejercicio2C.Servicios
             int a = Convert.ToInt32(Console.ReadLine());
             return a;
         }
+    }
 }
