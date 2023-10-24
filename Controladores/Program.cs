@@ -18,9 +18,9 @@ namespace Ejercicio2C
             int b = Convert.ToInt32(Math.Sqrt(a));
             if (a == b*b)
             {
-                Console.WriteLine("se puede expresar como el cuadrado de otro número entero ");
+                Console.WriteLine(" tiene raiz entera es: " +a+"="+b+"*"+b);
             }
-            else { Console.WriteLine("no se puede expresar como el cuadrado de otro número entero"); }
+            else { Console.WriteLine("no tiene raiz entera"); }
         }
     }
 }  
